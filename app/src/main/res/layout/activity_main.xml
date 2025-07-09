@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the User Name"
+        android:id="@+id/edt_userName"
+        android:inputType="textAutoComplete"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Auth Protocol"
+        android:id="@+id/edt_authprotocal"
+        android:inputType="textAutoComplete"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Auth Password"
+        android:id="@+id/edt_authpassword"
+        android:inputType="textAutoComplete"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Privacy Protocol"
+        android:id="@+id/edt_privacyprotocaol"
+        android:inputType="textAutoComplete"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Privacy Password"
+        android:id="@+id/edt_privacypassword"
+        android:inputType="textAutoComplete"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Ip Address"
+        android:id="@+id/edt_ipaddress"
+        android:inputType="textAutoComplete"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the PortNumber"
+        android:id="@+id/edt_portnumber"
+        android:inputType="textAutoComplete"/>
+
+    <Button
+        android:id="@+id/btnSnmpGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save SNMP"
+        android:padding="12dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtSnmpResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>

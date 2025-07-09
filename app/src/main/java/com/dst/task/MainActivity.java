@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             edtPrivacyProtocol, edtPrivacyPassword, edtIpAddress, edtPortNumber;
     private TextView txtSnmpResult;
     private Button btnSnmpGet;
-    String Hi;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
